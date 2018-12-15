@@ -1,8 +1,10 @@
 # Authentic Cuisine Detector
 
+
 ### Introduction
 
 An analytic system was built to help users find the best food in town and the most favorable, authentic dishes among the top-notch restaurants. The system was built on the dataset provided by Yelp. We used Chinese food as an example in this project.
+
 
 ### Implementation Details
 
@@ -44,12 +46,14 @@ An analytic system was built to help users find the best food in town and the mo
     * Filter out all the frequent words that are not dish name related from the reviews.
     * From all the filtered positive reviews, get the most frequent bi-gram and tri-gram words, and they are our best dishes.
 
+
 ### Installations and Dependencies
 * Programming Language: Python 3.x
 * Modules: pandas; numpy; glob; filesplit; nltk; gensim; sklearn.
 ```
     pip install pandas numpy glob filesplit nltk gensim sklearn
 ```
+ 
  
 ### How to Use
 1. Download yelp dataset from https://www.yelp.com/dataset. Please download the entire dataset (>4G) and un-tar the file. Place these 3 json files under the **yelp_dataset** folder. They will be used for this project.
@@ -73,6 +77,7 @@ An analytic system was built to help users find the best food in town and the mo
     ```
     python src/best_dishes.py
     ```
+
 
 ### Results
 1. Adjusted business review rating is generated in file:
@@ -115,6 +120,6 @@ An analytic system was built to help users find the best food in town and the mo
     output/4star_pos_reviews_most_common_trigrams
     ```
     The list is generated based on parsing the reviews with positive sentiments on the best restaurants. Below are the top dishes and the number of times they were mentioned in the review:
-    
+    ![alt text](https://github.com/yix7/mcsds_cs410_project/blob/master/output/BestDishesList.PNG)
     We also tried bi-grams for the dish names, but with bi-gram, the names are more generic, which don't represent the exact dish names, thus we used tri-gram to represent.
     
