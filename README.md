@@ -4,6 +4,10 @@
 ### Introduction
 
 An analytic system was built to help users find the best food in town and the most favorable, authentic dishes among the top-notch restaurants. The system was built on the dataset provided by Yelp. We used Chinese food as an example in this project.
+* Adjust the weight of each review accordingly when calculating the weighted average of a restaurant.
+* Mine review topics from all the user reviews, assign a topic to each review. Mark whether a review is food related or not based on the assigned topic. Increase the weight of food related reviews.
+* Update the restaurant rating based on adjusted weight.
+* Mine the best dish names from positive sentiment reviews, from all the restaurants with an adjusted review rating of > 4.
 
 
 ### Implementation Details
@@ -49,7 +53,7 @@ An analytic system was built to help users find the best food in town and the mo
 
 ### Installations and Dependencies
 * Programming Language: Python 3.x
-* Modules: pandas; numpy; glob; filesplit; nltk; gensim; sklearn.
+* Modules: pandas; numpy; filesplit; nltk; gensim; sklearn.
 ```
     pip install pandas numpy glob filesplit nltk gensim sklearn
 ```
@@ -118,7 +122,7 @@ An analytic system was built to help users find the best food in town and the mo
 
 3. The best dishes from the best restaurants (>4 star rating, around 100 restaurants) are listed in below file:
     ```
-    output/4star_pos_reviews_most_common_trigrams
+    output/4star_pos_reviews_most_common_trigrams.csv
     ```
     The list is generated based on parsing the reviews with positive sentiments on the best restaurants. Below are the top dishes and the number of times they were mentioned in the review:
     ![alt text](https://github.com/yix7/mcsds_cs410_project/blob/master/output/BestDishesList.PNG)
