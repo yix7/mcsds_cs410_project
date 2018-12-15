@@ -124,3 +124,9 @@ An analytic system was built to help users find the best food in town and the mo
     ![alt text](https://github.com/yix7/mcsds_cs410_project/blob/master/output/BestDishesList.PNG)
     We also tried bi-grams for the dish names, but with bi-gram, the names are more generic, which don't represent the exact dish names, thus we used tri-gram to represent.
     
+
+### Developers
+* Parse yelp dataset - _Nian Jiang_
+* Topic mining from review and assign specific topic to each review - _Yi Xu_ and _Nian Jiang_
+* Adjust business review rating - _Yi Xu_ and _Nian Jiang_
+* Mine the best dishes from positive sentiment reviews - _Yi Xu_
