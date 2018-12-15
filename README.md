@@ -80,7 +80,8 @@ An analytic system was built to help users find the best food in town and the mo
 
 
 ### Results
-1. Adjusted business review rating is generated in file:
+1. A classifier is created to identify if a review is positive or negative. Using the training and testing data from 1-star and 5-star reviews, we achieved a classifier with AUC score:0.947; Macro precision: 0.97; Macro recall: 0.947; F1: 0.958.
+2. Adjusted business review rating is generated in file:
     ```
     output/adjusted_review_result.csv
     ```
@@ -115,7 +116,7 @@ An analytic system was built to help users find the best food in town and the mo
    | Singing Pandas Asian Restaurant & Bar_bWucOPNoIjd8ECdiDyVq9Q | 4.558 | 4.509 |
    | Pepper Cafe_Av5toUG7wweXfiX6FW4F0A | 4.626 | 4.507 | 
 
-2. The best dishes from the best restaurants (>4 star rating, around 100 restaurants) are listed in below file:
+3. The best dishes from the best restaurants (>4 star rating, around 100 restaurants) are listed in below file:
     ```
     output/4star_pos_reviews_most_common_trigrams
     ```
