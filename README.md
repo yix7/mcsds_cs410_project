@@ -6,7 +6,7 @@
 An analytic system was built to help users find the best food in town and the most favorable, authentic dishes among the top-notch restaurants. The system was built on the dataset provided by Yelp. We used Chinese food as an example in this project.
 * Adjust the weight of each review accordingly when calculating the weighted average of a restaurant.
 * Mine review topics from all the user reviews, assign a topic to each review. Mark whether a review is food related or not based on the assigned topic. Increase the weight of food related reviews.
-* Update the restaurant rating based on adjusted weight.
+* Update the restaurant rating based on the adjusted weight.
 * Mine the best dish names from positive sentiment reviews, from all the restaurants with an adjusted review rating of > 4.
 
 
