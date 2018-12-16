@@ -55,7 +55,7 @@ An analytic system was built to help users find the best food in town and the mo
 * Programming Language: Python 3.x
 * Modules: pandas; numpy; filesplit; nltk; gensim; sklearn.
 ```
-    pip install pandas numpy glob filesplit nltk gensim sklearn
+    pip install pandas numpy filesplit nltk gensim sklearn
 ```
  
  
