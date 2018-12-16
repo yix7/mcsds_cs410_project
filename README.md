@@ -57,7 +57,8 @@ An analytic system was built to help users find the best food in town and the mo
 ```
     pip install pandas numpy filesplit nltk gensim sklearn
 ```
- 
+* Given the large size of yelp data we are parsing, please use more than 16GB DRAM to avoid memory error. This tool was tested with 16GB DRAM.
+
  
 ### How to Use
 1. Download yelp dataset from https://www.yelp.com/dataset. Please download the entire dataset (>4G) and un-tar the file. Place these 3 json files under the **yelp_dataset** folder. They will be used for this project.
