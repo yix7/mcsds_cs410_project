@@ -1,0 +1,7 @@
+TopicNumber,TopicContent,FoodRelated - Enter 1 if yes enter 0 otherwise
+0,"0.019*""sum"" + 0.019*""dim"" + 0.011*""pittsburgh"" + 0.007*""ny"" + 0.004*""kee""",1
+1,"0.006*""thai"" + 0.005*""tea"" + 0.004*""madison"" + 0.004*""ice"" + 0.003*""curri""",1
+2,"0.006*""food"" + 0.005*""great"" + 0.005*""servic"" + 0.005*""time"" + 0.005*""order""",0
+3,"0.009*""vegan"" + 0.004*""wei"" + 0.004*""bartend"" + 0.004*""hakka"" + 0.004*""pei""",1
+4,"0.009*""waffl"" + 0.005*""wai"" + 0.004*""bass"" + 0.004*""tempura"" + 0.004*""class""",1
+5,"0.008*""chicken"" + 0.006*""noodl"" + 0.006*""soup"" + 0.005*""chines"" + 0.005*""great""",1
